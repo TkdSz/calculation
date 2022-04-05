@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charest = "utf-8" >  
+        <title>電卓</title>
+        <link rel = "stylesheet" href = "calculation.css">
+        <script type="text/javascript" src="calculation.js"></script>
+    </head>
+    <body>
+        <form name = "dentaku">
+            <table>
+                <tr>
+                    <td colspan = "4">
+                        <input type = "text" class = "display"  name = "display" value = "" disabled >
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "7" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "8" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "9" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "÷" class = "operator" onclick = "get_calc(this)" > </td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "4" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "5" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "6" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "×" class = "operator" onclick = "get_calc(this)" > </td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "1" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "2" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "3" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "-" class = "operator" onclick = "get_calc(this)" > </td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "0" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "C" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "=" class = "equal" onclick = "get_calc(this)" > </td>
+                    <td> <input type = "button" value = "+" class = "operator" onclick = "get_calc(this)" > </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
